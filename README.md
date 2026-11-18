@@ -23,6 +23,16 @@ a new house, and was generalized in 2025 into something that can track anything.
 It stores everything on the device and asks for no permissions, so there is
 nothing to sign into and nothing to sync.
 
+## Downloads
+
+The easiest way to get Countdown is by grabbing the latest release directly from
+GitHub or by adding it to Obtainium.
+
+<div align="center">
+  <a href="https://github.com/JustinMichaudOuellette/Countdown/releases/latest"><img alt="Get it on GitHub" height="100" src="assets/images/badge_github.png"></a>
+  <a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/%7B%22id%22%3A%22ca.justinmo.countdown%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2FJustinMichaudOuellette%2FCountdown%22%2C%22author%22%3A%22JustinMichaudOuellette%22%2C%22name%22%3A%22Countdown%22%2C%22preferredApkIndex%22%3A0%2C%22additionalSettings%22%3A%22%7B%5C%22includePrereleases%5C%22%3Atrue%2C%5C%22fallbackToOlderReleases%5C%22%3Atrue%2C%5C%22filterReleaseTitlesByRegEx%5C%22%3A%5C%22%5C%22%2C%5C%22filterReleaseNotesByRegEx%5C%22%3A%5C%22%5C%22%2C%5C%22verifyLatestTag%5C%22%3Afalse%2C%5C%22sortMethodChoice%5C%22%3A%5C%22date%5C%22%2C%5C%22useLatestAssetDateAsReleaseDate%5C%22%3Afalse%2C%5C%22releaseTitleAsVersion%5C%22%3Afalse%2C%5C%22trackOnly%5C%22%3Afalse%2C%5C%22versionExtractionRegEx%5C%22%3A%5C%22%5C%22%2C%5C%22matchGroupToUse%5C%22%3A%5C%22%5C%22%2C%5C%22versionDetection%5C%22%3Atrue%2C%5C%22releaseDateAsVersion%5C%22%3Afalse%2C%5C%22useVersionCodeAsOSVersion%5C%22%3Afalse%2C%5C%22apkFilterRegEx%5C%22%3A%5C%22%5C%22%2C%5C%22invertAPKFilter%5C%22%3Afalse%2C%5C%22autoApkFilterByArch%5C%22%3Atrue%2C%5C%22appName%5C%22%3A%5C%22Countdown%5C%22%2C%5C%22appAuthor%5C%22%3A%5C%22JustinMichaudOuellette%5C%22%2C%5C%22shizukuPretendToBeGooglePlay%5C%22%3Afalse%2C%5C%22allowInsecure%5C%22%3Afalse%2C%5C%22exemptFromBackgroundUpdates%5C%22%3Afalse%2C%5C%22skipUpdateNotifications%5C%22%3Afalse%2C%5C%22about%5C%22%3A%5C%22%5C%22%2C%5C%22refreshBeforeDownload%5C%22%3Afalse%7D%22%2C%22overrideSource%22%3A%22GitHub%22%7D"><img alt="Get it on Obtainium" height="100" src="assets/images/badge_obtainium.png"></a>
+</div>
+
 ## What it does
 
 - **One row per countdown**, with an emoji, the optional title, and the time left
@@ -81,10 +91,6 @@ cd Countdown
 
 On Windows, use `.\gradlew.bat` instead of `./gradlew`.
 
-If a build is published, its APK is attached to the
-[releases page](https://github.com/JustinMichaudOuellette/Countdown/releases);
-otherwise the commands above are the whole install path.
-
 ## Tests
 
 ```sh
@@ -116,7 +122,7 @@ years, months and days between today and the target, adds those to now, and then
 asks `Duration` for the hours, minutes and seconds that remain:
 
 ```text
-now ── +period ──> adjusted start ── duration ──> target
+now â”€â”€ +period â”€â”€> adjusted start â”€â”€ duration â”€â”€> target
 ```
 
 That distinction is what keeps 29 February and 31-day months honest; counting
@@ -191,6 +197,7 @@ app/                          the Android app
   src/main/assets/emoji/      the generated emoji dataset
   src/test/                   20 JVM tests
 tools/emoji/                  regenerates the emoji dataset
+assets/images/                the download badges
 screenshot.png                the list, as shown above
 screenshot-detail.png         one countdown opened
 countdown.svg                 the app icon source

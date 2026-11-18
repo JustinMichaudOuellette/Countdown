@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Compte</string>
+    <string name="main_list_title">Comptes à rebours</string>
+    <string name="instruction_label">L\'appli compte à rebours vous permet de suivre le temps des événements. Qu’as-tu hâte de vivre?</string>
+    <string name="add_countdown">Ajouter un compte à rebour</string>
+    <string name="menu_back">Retour</string>
+    <string name="about">À propos</string>
+    <string name="app_description">En 2022, j\'ai créé une application simple pour expérimenter avec Jetpack Compose et suivre le temps restant avant la livraison de ma nouvelle maison. En 2025, j\'ai entamé cette nouvelle version pour suivre le temps qui me sépare de mon départ du monde corporatif. J\'ai décidé de la rendre générique, afin que chacun puisse y ajouter les événements de leur choix. Je me suis inspiré de la fonctionnalité « Notes » de Facebook pour permettre l\'ajout d\'un émoji illustrant le compte à rebours. J\'espère que mon application vous plaira et qu\'elle vous sera utile pour garder le compte de ce qui est important pour vous.\n\n— jmo</string>
+    <string name="share">Partager</string>
+    <string name="countdown">Compte à rebour</string>
+    <string name="edit_countdown">Modification du compte à rebour</string>
+    <string name="delete">Supprimer</string>
+    <string name="past_time">Il y a %s</string>
+    <string name="breakdown">Détails</string>
+    <string name="loading_error">Erreur de chargement</string>
+    <string name="countdown_not_found">Compte à rebour introuvable</string>
+    <string name="save_countdown">Sauveguarder le compte à rebour</string>
+    <string name="menu_edit">Modifier le compte à rebour</string>
+    <string name="menu_delete">Supprimer le compte à rebour</string>
+    <string name="copyright">© 2025-%1$d</string>
+    <string name="copyright_author">Justin Michaud-Ouellette</string>
+    <string name="yearly">Annuel</string>
+    <string name="time">Heure</string>
+    <string name="cancel">Annuler</string>
+    <string name="ok">OK</string>
+    <string name="date">Date</string>
+    <string name="title">Titre</string>
+    <string name="title_optional">Titre (optionnel)</string>
+    <string name="suggested_icons">Icônes suggérées</string>
+    <string name="emoji_category_people">Smileys et personnes</string>
+    <string name="emoji_category_animals">Animaux et nature</string>
+    <string name="emoji_category_food">Nourriture et boissons</string>
+    <string name="emoji_category_travel">Voyages et lieux</string>
+    <string name="emoji_category_activities">Activités</string>
+    <string name="emoji_category_objects">Objets</string>
+    <string name="emoji_category_symbols">Symboles</string>
+    <string name="emoji_category_flags">Drapeaux</string>
+    <string name="emoji_variants">Afficher les variantes</string>
+
+    <!-- Calendar -->
+    <string name="calendar_event_unreadable">Impossible de lire cet événement de calendrier</string>
+    <string name="icon">Icône</string>
+    <string name="select_time">Sélectionner une heure</string>
+    <!-- Onboarding -->
+    <string name="onboarding_message">Suivez le temps restant avant ou depuis vos événements :</string>
+    <string-array name="onboarding_examples">
+        <item>Anniversaires</item>
+        <item>Voyages</item>
+        <item>Vacances</item>
+        <item>Étapes de vie</item>
+    </string-array>
+    <string name="onboarding_point_create">Créez des comptes à rebours avec des émojis</string>
+    <string name="onboarding_point_track">Voyez le temps en différentes unitées</string>
+    <string name="onboarding_point_yearly">Suivez les événements annuels</string>
+    <string name="onboarding_get_started">Commencer</string>
+    <string name="onboarding_privacy">Vos données restent dans l\'appli et ne sont ni partagées ni téléversées.</string>
+    <string name="onboarding_skip">Passer</string>
+
+    <!-- Onboarding suggestions -->
+    <string name="onboarding_suggestions_title">Quels événements attendez-vous ?</string>
+    <string name="onboarding_suggestions_message">Choisissez les événements à compter.</string>
+    <string name="onboarding_suggestions_continue">Continuer</string>
+    <string name="onboarding_suggestions_error">Impossible d\'ajouter les comptes à rebours. Veuillez réessayer.</string>
+    <string name="suggestion_halloween">Halloween</string>
+    <string name="suggestion_christmas">Noël</string>
+    <string name="suggestion_new_years_day">Jour de l\'An</string>
+    <string name="suggestion_valentines_day">Saint-Valentin</string>
+    <string name="suggestion_wedding">Mariage</string>
+    <string name="suggestion_birth">Naissance</string>
+    <string name="suggestion_birthday">Anniversaire</string>
+    <string name="onboarding_suggestion_pick_date">Choisir une date</string>
+    <string name="onboarding_pick_year">Choisir une année</string>
+    <string name="onboarding_pick_month">Choisir un mois</string>
+
+    <!-- Time -->
+    <plurals name="year" tools:ignore="MissingQuantity">
+        <item quantity="one">%s an</item>
+        <item quantity="other">%s ans</item>
+    </plurals>
+    <plurals name="month" tools:ignore="MissingQuantity">
+        <item quantity="other">%s mois</item>
+    </plurals>
+    <plurals name="week" tools:ignore="MissingQuantity">
+        <item quantity="one">%s semaine</item>
+        <item quantity="other">%s semaines</item>
+    </plurals>
+    <plurals name="day" tools:ignore="MissingQuantity">
+        <item quantity="one">%s jour</item>
+        <item quantity="other">%s jours</item>
+    </plurals>
+    <plurals name="hour" tools:ignore="MissingQuantity">
+        <item quantity="one">%s heure</item>
+        <item quantity="other">%s heures</item>
+    </plurals>
+    <plurals name="minute" tools:ignore="MissingQuantity">
+        <item quantity="one">%s minute</item>
+        <item quantity="other">%s minutes</item>
+    </plurals>
+    <plurals name="second" tools:ignore="MissingQuantity">
+        <item quantity="one">%s seconde</item>
+        <item quantity="other">%s secondes</item>
+    </plurals>
+    <plurals name="millisecond" tools:ignore="MissingQuantity">
+        <item quantity="one">%s milliseconde</item>
+        <item quantity="other">%s millisecondes</item>
+    </plurals>
+</resources>

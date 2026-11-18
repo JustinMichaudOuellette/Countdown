@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Countdown</string>
+    <string name="main_list_title">Countdowns</string>
+    <string name="instruction_label">The Countdown App lets you keep track of the time to upcoming events.\nWhat are you looking forward to?</string>
+    <string name="add_countdown">Add Countdown</string>
+    <string name="menu_back">Back</string>
+    <string name="about">About</string>
+    <string name="app_description">In 2022, I made a simple app to experiment with Jetpack Compose and keep track of the time until my new house would be delivered by the contractor. In 2025, I started this iteration to keep track of the time until my exit from corporate work. I decided to make it generic so people can any event they like. I was inspired by the Facebook notes feature to add an emoji to represent the countdown. I hope you like my app and find it useful to keep track of what\'s important to you.\n\n— jmo</string>
+    <string name="share">Share</string>
+    <string name="countdown">Countdown</string>
+    <string name="edit_countdown">Edit Countdown</string>
+    <string name="delete">Delete</string>
+    <string name="past_time">%s ago</string>
+    <string name="breakdown">Breakdowns</string>
+    <string name="loading_error">Error loading</string>
+    <string name="countdown_not_found">Countdown not found</string>
+    <string name="save_countdown">Save countdown</string>
+    <string name="menu_edit">Edit countdown</string>
+    <string name="menu_delete">Delete countdown</string>
+    <string name="copyright">© 2025-%1$d</string>
+    <string name="copyright_author">Justin Michaud-Ouellette</string>
+    <string name="yearly">Yearly</string>
+    <string name="time">Time</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="date">Date</string>
+    <string name="title">Title</string>
+    <string name="title_optional">Title (Optional)</string>
+    <string name="suggested_icons">Suggested icons</string>
+    <string name="emoji_category_people">Smileys &amp; People</string>
+    <string name="emoji_category_animals">Animals &amp; Nature</string>
+    <string name="emoji_category_food">Food &amp; Drink</string>
+    <string name="emoji_category_travel">Travel &amp; Places</string>
+    <string name="emoji_category_activities">Activities</string>
+    <string name="emoji_category_objects">Objects</string>
+    <string name="emoji_category_symbols">Symbols</string>
+    <string name="emoji_category_flags">Flags</string>
+    <string name="emoji_variants">Show variants</string>
+
+    <!-- Calendar -->
+    <string name="calendar_event_unreadable">That calendar event couldn\'t be read</string>
+    <string name="icon">Icon</string>
+    <string name="select_time">Select a time</string>
+    <!-- Onboarding -->
+    <string name="onboarding_message">Track time to upcoming or past events:</string>
+    <string-array name="onboarding_examples">
+        <item>Anniversaries</item>
+        <item>Trips</item>
+        <item>Holidays</item>
+        <item>Major life events</item>
+    </string-array>
+    <string name="onboarding_point_create">Create countdowns with emojis</string>
+    <string name="onboarding_point_track">See time in different units</string>
+    <string name="onboarding_point_yearly">Track yearly events</string>
+    <string name="onboarding_get_started">Get started</string>
+    <string name="onboarding_privacy">Your data stays in the app and is neither shared nor uploaded.</string>
+    <string name="onboarding_skip">Skip</string>
+
+    <!-- Onboarding suggestions -->
+    <string name="onboarding_suggestions_title">What are you looking forward to?</string>
+    <string name="onboarding_suggestions_message">Pick the events you want to count down to.</string>
+    <string name="onboarding_suggestions_continue">Continue</string>
+    <string name="onboarding_suggestions_error">Couldn\'t add the countdowns. Please try again.</string>
+    <string name="suggestion_halloween">Halloween</string>
+    <string name="suggestion_christmas">Christmas</string>
+    <string name="suggestion_new_years_day">New Year\'s Day</string>
+    <string name="suggestion_valentines_day">Valentine\'s Day</string>
+    <string name="suggestion_wedding">Wedding</string>
+    <string name="suggestion_birth">Birth</string>
+    <string name="suggestion_birthday">Birthday</string>
+    <string name="onboarding_suggestion_pick_date">Pick a date</string>
+    <string name="onboarding_pick_year">Select a year</string>
+    <string name="onboarding_pick_month">Select a month</string>
+
+    <!-- Time -->
+    <plurals name="year">
+        <item quantity="one">%s year</item>
+        <item quantity="other">%s years</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="one">%s month</item>
+        <item quantity="other">%s months</item>
+    </plurals>
+    <plurals name="week">
+        <item quantity="one">%s week</item>
+        <item quantity="other">%s weeks</item>
+    </plurals>
+    <plurals name="day">
+        <item quantity="one">%s day</item>
+        <item quantity="other">%s days</item>
+    </plurals>
+    <plurals name="hour">
+        <item quantity="one">%s hour</item>
+        <item quantity="other">%s hours</item>
+    </plurals>
+    <plurals name="minute">
+        <item quantity="one">%s minute</item>
+        <item quantity="other">%s minutes</item>
+    </plurals>
+    <plurals name="second">
+        <item quantity="one">%s second</item>
+        <item quantity="other">%s seconds</item>
+    </plurals>
+    <plurals name="millisecond">
+        <item quantity="one">%s millisecond</item>
+        <item quantity="other">%s milliseconds</item>
+    </plurals>
+
+</resources>
